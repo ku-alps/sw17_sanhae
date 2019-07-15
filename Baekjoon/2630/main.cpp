@@ -24,3 +24,4 @@ int main() {
 	f(0, 0, n);
 	printf("%d %d", p[0], p[1]);
 }
+
