@@ -7,9 +7,9 @@ int main() {
 	while (m) scanf("%d", v + m--);
 	std::sort(v, v + n);
 	while (~scanf("%d%d", &x, &y)) {
-		int a = 0, b = n, c, k = x + y - l;
-		while (a + 1 < b) v[c = (a + b) / 2] >= k ? b = c : a = c;
-		if (v[b] <= 2*x - k) z++;
+		int a = 0, b = n, c;
+		while (a + 1 < b) v[c = (a + b) / 2] >= x + y - l ? b = c : a = c;
+		if (v[b] <= x - y + l) z++;
 	}
 	printf("%d", z);
 }
