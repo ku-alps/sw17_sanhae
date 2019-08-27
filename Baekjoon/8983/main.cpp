@@ -17,7 +17,7 @@ int main() {
 	while (m--) { scanf("%d", &x);  v.push_back(x); }
 	sort(v.begin(), v.end()); m = v.size() - 1;
 	while (~scanf("%d%d", &x, &y)) 
-    if (v[f(x + y - l)] <= x - y + l)
-      z++;
+    	if (v[f(x + y - l)] <= x - y + l)
+      		z++;
 	printf("%d", z);
 }
