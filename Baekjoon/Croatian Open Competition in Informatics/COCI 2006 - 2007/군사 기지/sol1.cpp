@@ -90,7 +90,7 @@ std::vector<line> v;	// 독립된(서로 합쳐지지 않는) 선분들
 int n, i, j, k, t1, t2, t3, t4, in[4], ans;
 
 int main() {
-	freopen("Input.txt", "r", stdin);
+	//freopen("Input.txt", "r", stdin);
 	scanf("%d", &n);
 	while (n--) {
 		for (i = 0; i < 4; i++) {
